@@ -1,0 +1,75 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Local Configurations
+.env
+.env.*
+config.txt
+*.key
+*.pem
+*.cert
+*.token
+
+# Large Files & Test Media
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.webm
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary Dumps, Logs & Inspection Images
+out/
+tmp_inspect/
+_tmp_*/
+crop*.png
+crop*.jpg
+*.log
+
+# Releases & Binary Weights
+发布包/
+models/
+*.onnx
+
+# OS & Editor Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

@@ -1,0 +1,18 @@
+# 幻唐志战斗统计工具 · 核心依赖
+# 安装命令：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 图像处理（色彩掩膜、连通域、特征提取）
+opencv-python>=4.8
+
+# 数值计算
+numpy>=1.24
+
+# 本地轻量级 OCR（用于提取回合数、候选框读数、HUD锚点）
+onnxruntime>=1.16
+rapidocr>=3.6
+
+# 屏幕捕获（跨平台 Windows/macOS）
+mss>=9.0
+
+# 局域网面板手机扫码二维码生成
+segno>=1.6

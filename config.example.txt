@@ -1,0 +1,29 @@
+# 幻唐志战斗统计工具 · 配置示例
+# 复制本文件为 config.txt，并填入自己的配置。
+#
+# ======================= 必填 =======================
+# VLM_API_KEY  云端视觉模型的 API key。没填的话启动器会提示填写。
+#
+#   阿里云百炼（通义千问）控制台： https://bailian.console.aliyun.com/
+#   路径：登录 → 模型服务 → API-KEY 管理 → 创建我的 API-KEY
+#   新用户一般有免费额度；正常使用一场战斗约 ¥0.3~0.5
+#
+# ==================== 选填 / 换服务商 ====================
+# 下面几家都是 OpenAI 兼容接口，改地址 + 模型名即可切换，无需修改代码。
+#
+#   阿里云百炼（推荐实测）  https://dashscope.aliyuncs.com/compatible-mode/v1
+#                         qwen-vl-max
+#   硅基流动              https://api.siliconflow.cn/v1
+#                         Qwen/Qwen2.5-VL-72B-Instruct
+#   智谱 AI               https://open.bigmodel.cn/api/paas/v4
+#                         glm-4v-plus
+#
+# REGION  游戏窗口在屏幕上的位置 x,y,w,h。留空 = 抓取整个主屏幕。
+#         启动器选「2) 抓屏预览」可以边看边调。
+# MONITOR 显示器编号（默认为 1）
+
+VLM_API_KEY=
+VLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+VLM_MODEL=qwen-vl-max
+REGION=
+MONITOR=1
